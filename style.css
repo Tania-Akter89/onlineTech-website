@@ -1,4 +1,4 @@
-.working {
+    .working {
     height: 376px;
     width: 80%;
 }
@@ -55,3 +55,52 @@ body {
     height: 20px;
     background-color: aqua;
 }
+
+.trusted img {
+    margin: 8px;
+}
+
+@media only screen and (max-width: 476px) {
+    body {
+        overflow: hidden;
+        max-width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    .first {
+        flex-direction: column;
+    }
+    .work {
+        flex-direction: column;
+    }
+    .student {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .student .card {
+        margin: 0;
+        background-color: whitesmoke;
+    }
+    .mobile {
+        margin-left: 100px;
+    }
+    .ascii {
+        position: relative;
+        top: -60px;
+        left: -70px;
+        font-size: 13pxpx;
+    }
+    .working {
+        height: 376px;
+        width: 80%;
+    }
+    .containerrs {
+        width: 100%;
+    }
+    .imagehead {
+        position: relative;
+        top: 140px;
+        left: 150px;
+    }
