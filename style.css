@@ -17,3 +17,41 @@ body {
     overflow-x: hidden;
     max-width: 100%;
 }
+
+.student {
+    display: flex;
+}
+
+.para {
+    position: relative;
+    top: -60px;
+    left: -130px;
+}
+
+.starposition {
+    position: relative;
+    top: -140px;
+    left: 110px;
+}
+
+.commapostion {
+    position: relative;
+    top: -140px;
+    left: -60px;
+}
+
+.iconposition {
+    position: relative;
+    left: -175px;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.iconposition2 {
+    position: relative;
+    left: 375px;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
