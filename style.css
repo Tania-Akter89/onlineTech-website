@@ -1,0 +1,19 @@
+.working {
+    height: 376px;
+    width: 80%;
+}
+
+.containerrs {
+    width: 100%;
+}
+
+.imagehead {
+    position: relative;
+    top: 140px;
+    left: 150px;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
